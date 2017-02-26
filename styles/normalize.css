@@ -46,9 +46,9 @@ section {
  * `article` contexts in Chrome, Firefox, and Safari.
  */
 
-h1 {
+h1, h2 {
   font-size: 2em;
-  margin: 0.67em 0;
+  margin: 0;
 }
 
 /* Grouping content
@@ -71,6 +71,17 @@ main { /* 1 */
 
 figure {
   margin: 1em 40px;
+}
+
+ul li {
+  list-style-type: none;
+  margin:0;
+  padding:0;
+}
+
+ul {
+  margin:0;
+  padding:0;
 }
 
 /**
