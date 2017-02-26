@@ -539,14 +539,14 @@ footer {
     padding: 104px 0 112px 0;
 }
 
-.logo-footer p{
+.logo-footer p {
     color: #909aad;
-    font-family: "Open Sans",sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 12px;
     font-weight: 400;
     line-height: 15px;
     padding-left: 55px;
-    margin:0;
+    margin: 0;
 }
 
 .logo-footer, .links-footer, .contacts-footer, .social-footer {
@@ -578,13 +578,13 @@ footer h3 {
 }
 
 .links-footer ul {
-     display: inline-block;
-     width: 50%;
-     vertical-align: top;
- }
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+}
 
 .links-footer ul a, .contacts-footer {
-text-decoration: none;
+    text-decoration: none;
     color: #909aad;
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
@@ -600,7 +600,7 @@ text-decoration: none;
     display: inline-block;
     width: 25%;
     color: #909aad;
-    font-family: "Font Awesome",sans-serif;
+    font-family: "Font Awesome", sans-serif;
     font-size: 24px;
     font-weight: 400;
     line-height: 48px;
@@ -608,7 +608,7 @@ text-decoration: none;
 
 .social-footer li a {
     color: #909aad;
-    font-family: "Font Awesome",sans-serif;
+    font-family: "Font Awesome", sans-serif;
     font-size: 24px;
     font-weight: 400;
     line-height: 48px;
