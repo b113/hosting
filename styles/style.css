@@ -234,7 +234,7 @@ header .container {
 }
 
 .search-domain select {
-    width: 15%;
+    width: 17%;
     height: 55px;
     border: 1px solid #dfeef3;
     background-color: #ffffff;
@@ -443,10 +443,14 @@ h2 span {
 
 .plan li {
     display: block;
-    /* Style for "Shape 11 c" */
     border-bottom: 1px solid #f0f4f7;
     margin: 0 20px 0 20px;
     padding: 20px 0 20px 0;
+    color: #8d9198;
+    font-family: "Open Sans",sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+
 }
 
 .plan li:last-child {
