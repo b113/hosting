@@ -100,9 +100,15 @@ header .container {
     display: block;
 }
 
+
+
 .menu li a:hover {
     background-color: #52cbf8;
+	  -webkit-transform: scale(1.1) rotate(4deg);
+  transform: scale(1.1) rotate(4deg);
 }
+
+
 
 .blue-container {
     background-color: #222836;
@@ -768,4 +774,39 @@ footer h3 {
 
 .map {
     background-color: #cadee8;
+}
+
+button, footer .container a {
+	 -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+
+button:hover, footer .container li a:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+footer .container li a {
+	display: inline-block;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+}
+
+button:hover, footer .container li:hover {
+  -webkit-animation-name: hvr-wobble-top;
+  animation-name: hvr-wobble-top;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
 }
