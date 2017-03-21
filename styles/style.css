@@ -1,3 +1,5 @@
+/*да, я знаю, что тут говнокод. жертвую качеством. мне стыдно. мой перфекционист страдает. если буду сильно задрачиваться и все вылизывать, то буду не успевать читать материалы.*/
+
 body {
     font-family: "Open Sans", sans-serif;
     /*box-sizing: border-box;*/
@@ -809,4 +811,153 @@ button:hover, footer .container li:hover {
   animation-timing-function: ease-in-out;
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
+}
+
+
+/*----- Blog -----*/
+
+.blog {
+	padding: 64px 0 103px 0;
+	color: #a0a9b6;
+}
+
+.preview-post__image {
+	width: 1140px;
+	height: 382px;
+	background-color: #d4d3ec;
+	margin-bottom: 42px;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 382px; /*да, это стремная тема*/
+	text-transform: uppercase;
+	text-align: center;
+	vertical-align: middle;
+/*	padding-top: 191px;*/
+	box-sizing: border-box;
+}
+
+.preview-post__title {
+	color: #556b72;
+	font-weight: 700;
+	line-height: 27px;
+	text-transform: uppercase;
+	padding-bottom: 0;
+}
+
+.post-info__author {
+	display: inline-block;
+	border-right: 1px solid #a0a9b6;
+	padding-right: 15px;
+}
+
+.post-info__date {
+	display: inline-block;
+	padding-left: 15px;
+}
+
+.preview-post__text {
+	font-size: 14px;
+	line-height: 24px;
+	margin: 31px 0 38px 0;
+}
+
+.blog__read {
+	width: 160px;
+	height: 55px;
+	background-color: #ff8261;
+	color: #ffffff;
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	border: 0;
+	vertical-align: text-bottom;
+	cursor: pointer;
+}
+
+.social {
+	border-top: 1px solid #d6e8ee;
+	border-bottom: 1px solid #d6e8ee;
+	margin: 55px 0 60px;
+	font-size: 14px;
+}
+
+.social span {
+	display: inline-block;
+	width: 28px;
+	height: 28px;
+	background-color: #ff8261;
+	border-radius: 50%;
+	color: #ffffff;
+	font-size: 13px;
+	line-height: 28px;
+	text-align: center;
+}
+
+.social__comments,
+.social__like,
+.social__share {
+	display: inline-block;
+	padding: 11px 17px 11px 17px;
+	border-right: 1px solid #d6e8ee;
+}
+
+.social__share {
+	border-right: 0;
+}
+
+.social__comments {
+	padding-left: 0;
+}
+
+.social-icons {
+	display: inline-block;
+}
+
+.social-icons li {
+	display: inline-block;
+}
+
+.share__facebook,
+.share__twitter,
+.share__linkedin,
+.share__googleplus {
+	display: inline-block;
+	color: #909aad;
+	font-size: 14px;
+	padding: 0 10px;
+}
+
+.social-footer li a {
+	color: #909aad;
+	font-family: "Font Awesome", sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 48px;
+}
+.pagination__count li { /* как по этому бэму задать инлайн-блок для каждый лишки?*/
+	display: inline-block;
+	width: 39px;
+	height: 39px;
+	line-height: 39px;
+	text-align: center;
+	border: 1px solid #d6e8ee;
+	font-size: 18px;
+	font-weight: 700;
+	margin-right: 9px;
+}
+
+.pagination__count li a {
+	text-decoration: none;
+		color: #656d78;
+	display: block;
+}
+
+.pagination__count li:nth-child(5){
+	border: 0;
+}
+
+.pagination__count li a:hover {
+	background-color: #ff8261;
+	color: #ffffff;
 }
